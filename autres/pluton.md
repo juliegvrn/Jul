@@ -7,7 +7,7 @@ Icone créée par [monkik](https://www.flaticon.com/authors/monkik) trouvée sur
 
 ## Caractéristiques
 
-- Masse: (1,314 +/- 0,018) × 10<sup>22</sup> kg
+- Masse: (1,314 ± 0,018) × 10<sup>22</sup> kg
 - Diamètre : 2 372 km
 - Distance au soleil :
   - Aphélie : 7 375 927 931 km

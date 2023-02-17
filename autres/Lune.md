@@ -13,3 +13,5 @@ Icone créée par [monkik](https://www.flaticon.com/authors/monkik) trouvée sur
     - dernier quartier : ☾
     - pleine lune : 〇
     - nouvelle lune : ● 
+    - nœud ascendant : ☊
+    - nœud descendant : ☋

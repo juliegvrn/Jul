@@ -20,4 +20,4 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Exécuter un script de ligne one-
-      run: cat mercure.md soleil.md
+      run: cat autres/lune.md autres/pluton.md

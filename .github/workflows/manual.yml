@@ -19,14 +19,5 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Installer les bibliothèques requises
-      run: |
-        python -m pip install --upgrade pip
-        python -m pip install colorama
-    - name: créer le fichier markdown
-      run: python classifier.py elements-${{ matrix.python-version }}.md
-    - name: Produire et charger le fichier
-      uses: actions/upload-artifact@v2
-      with:
-        name: elements
-        path: elements-${{ matrix.python-version }}.md
+    - name: Exécuter un script de ligne one-
+        run: echo Bonjour, monde !

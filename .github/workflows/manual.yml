@@ -1,0 +1,26 @@
+name : My Linter Action
+
+sur :
+  
+  push :
+    branches : [ main ]
+  pull_request :
+    branches[19659014]: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  
+  build:
+    
+    runs-on: ubuntu-dernière
+
+    étapes :
+      
+      - utilise : actions/checkout@v2
+
+      - name: Exécuter un script de ligne one-
+        run: echo Bonjour, monde !
+
+      - nom : Exécuter le service de linting
+        utilise : github/super-linter@v3Test de tout
